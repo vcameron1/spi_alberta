@@ -9,11 +9,11 @@
 .Rprofile
 .Renviron.site
 .Rproj
-
+*.Rproj
 # Fichiers de sortie
 *.Rout
 *.Rout.save
-
+R/data_raw/
 # Fichiers de données volumineux
 *.csv
 *.tsv
