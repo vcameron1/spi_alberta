@@ -4,6 +4,11 @@
 # 2024-05-13
 #==============================================================================
 
+# Create data_raw and data_clean folders if they do not exist
+if (!dir.exists("data_raw")) dir.create("data_raw")
+if (!dir.exists("data_clean")) dir.create("data_clean")
+
+
 # Get species at Risk ranges from Environment and Climate Change Canada
 speciesAtRisk_url <- "https://data-donnees.az.ec.gc.ca/api/file?path=/species%2Fprotectrestore%2Frange-map-extents-species-at-risk-canada%2FSpecies%20at%20Risk%20Range%20Map%20Extents.gdb.zip"
 dataRaw_path <- file.path("data_raw", "speciesAtRisk.zip")
