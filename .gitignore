@@ -13,7 +13,7 @@
 # Fichiers de sortie
 *.Rout
 *.Rout.save
-R/data_raw/
+data_raw/*
 # Fichiers de données volumineux
 *.csv
 *.tsv
