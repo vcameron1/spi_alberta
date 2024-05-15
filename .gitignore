@@ -9,7 +9,7 @@
 .Rprofile
 .Renviron.site
 .Rproj
-
+*.Rproj
 # Fichiers de sortie
 *.Rout
 *.Rout.save
