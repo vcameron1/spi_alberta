@@ -19,6 +19,8 @@
 *.tsv
 *.xlsx
 *.xls
+*.zip
+*.gdp
 
 # Fichiers de documentation
 *.pdf

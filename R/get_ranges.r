@@ -1,16 +1,8 @@
+# Download data from ECCC website
 
-
-# Get the data
-url <- "https://gis.natureserve.ca/download/EBAR_base_data_15.gdb.zip"
-
-# Download the data
-download.file(url, "./data/EBAR_base_data_15.gdb.zip")
-
-# Unzip the data
-unzip("./data/EBAR_base_data_15.gdb.zip", exdir = "./data/EBAR_base_data_15.gdb")
-rm("./data/EBAR_base_data_15.gdb.zip")
-
-# List the files
-list.files("./data/EBAR_base_data_15.gdb", full.names = TRUE)
-
+# Species at Risk ranges
+speciesAtRisk_url <- "https://data-donnees.az.ec.gc.ca/api/file?path=/species%2Fprotectrestore%2Frange-map-extents-species-at-risk-canada%2FSpecies%20at%20Risk%20Range%20Map%20Extents.gdb.zip"
+dataRaw_path <- file.path("data_raw", "speciesAtRisk.zip")
+download.file(speciesAtRisk_url, dataRaw_path)
+unzip(dataRaw_path, exdir = "data_raw")
 
