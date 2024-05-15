@@ -1,0 +1,29 @@
+# Fichiers générés par R
+.RData
+.Rhistory
+.Rproj.user/
+
+# Fichiers temporaires
+.Rcheck/
+.Renviron
+.Rprofile
+.Renviron.site
+.Rproj
+
+# Fichiers de sortie
+*.Rout
+*.Rout.save
+
+# Fichiers de données volumineux
+*.csv
+*.tsv
+*.xlsx
+*.xls
+
+# Fichiers de documentation
+*.pdf
+*.html
+*.docx
+
+# Fichiers de cache
+.cache/
