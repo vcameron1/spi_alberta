@@ -28,3 +28,6 @@ protectedAreas_url <- "https://data-donnees.az.ec.gc.ca/api/file?path=/species%2
 dataRaw_path <- file.path("data_raw", "protectedAreas.zip")
 download.file(protectedAreas_url, dataRaw_path)
 unzip(dataRaw_path, exdir = "data_raw")
+
+
+
