@@ -58,22 +58,16 @@ sf::st_write(protectedAreas, file.path("data_clean", "protectedAreas.gpkg"))
 source("R/compute_spi.r")
 
 # Define the species to compute SPI for
-SPECIES <- c("Lotus formosissimus", "Athene cunicularia")
-# Should protected areas be unioned?
-UNION <- FALSE
+COSEWICID = as.data.frame(speciesAtRisk) |>
+    dplyr::filter(SAR_STAT_E %in% c("Endangered", "Threatened")) |>
+    dplyr::select(COSEWICID) |>
+COSEWICID <- COSEWICID[!duplicated(COSEWICID),]
 # Filter protected areas
 IUCN_CAT = 1:4
 
 # Run SPI computation
-SPI <- run_SPI_computation(SPECIES, UNION, IUCN_CAT)
+SPI <- run_SPI_computation(COSEWICID, IUCN_CAT = IUCN_CAT)
 ```
-
-
-
-
-
-
-
 
 
 ## References
