@@ -17,27 +17,55 @@ file.edit("~/.Renviron")
 **1. Download data**
 
 ```r
-source("R/get_data.R")
+source("R/get_data.r")
 ```
 
 **2. Prepare, format and clean data**
 
 ```r
-source("R/prep_data.R")
+source("R/prep_data.r")
+
+# 1. Load data
+## Species maps
+speciesAtRisk_path <- file.path("data_raw", "Species at Risk Range Map Extents.gdb")
+speciesAtRisk <- sf::st_read(speciesAtRisk_path)
+## Protected areas
+protectedAreas_path <- file.path("data_raw", "ProtectedConservedArea_2022.gdb")
+protectedAreas <- sf::st_read(protectedAreas_path)
+## Province_boundaries
+province_boundaries_path <- file.path("data_raw","lpr_000b16a_e.shp")
+province_boundaries <- sf::st_read(province_boundaries_path)
+
+# 2. Transform and crop layers to alberta
+epsg = 3401
+## Province boundaries
+province_boundaries <- transform_projections(layer = province_boundaries, EPSG = epsg) |>
+    sf::st_union()
+sf::st_write(province_boundaries, file.path("data_clean", "province_boundaries.gpkg"))
+## Protected areas
+protectedAreas <- transform_projections(protectedAreas[1,], epsg) |>
+    crop_layer("Alberta")
+sf::st_write(protectedAreas, file.path("data_clean", "protectedAreas.gpkg"))
+## Species at risk
+# speciesAtRisk_alberta <- transform_projections(speciesAtRisk, epsg) |>
+#     crop_layer("Alberta")
+# sf::st_write(speciesAtRisk_alberta, file.path("data_clean", "speciesAtRisk_alberta.gpkg"))
 ```
 
 **3. Compute SPI**
 
 ```r
-source("R/compute_spi.R")
+source("R/compute_spi.r")
 
 # Define the species to compute SPI for
 SPECIES <- c("Lotus formosissimus", "Athene cunicularia")
 # Should protected areas be unioned?
-UNION <- TRUE
+UNION <- FALSE
+# Filter protected areas
+IUCN_CAT = 1:4
 
 # Run SPI computation
-SPI <- run_SPI_computation(SPECIES, UNION)
+SPI <- run_SPI_computation(SPECIES, UNION, IUCN_CAT)
 ```
 
 
