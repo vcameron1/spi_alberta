@@ -44,10 +44,10 @@ crop_layer <- function(layer, province = "Alberta"){
     # Read the province boundaries
     province_path <- file.path("data_clean", "province_boundaries.gpkg")
     if (file.exists(province_path)){
-        province_boundaries <- sf::st_read(province_path)
+        province_boundaries <- sf::st_read(province_path, quiet = TRUE)
     } else {
         # Read the province boundaries
-        province_boundaries <- sf::st_read(file.path("data_raw","lpr_000b16a_e.shp")) |> 
+        province_boundaries <- sf::st_read(file.path("data_raw","lpr_000b16a_e.shp", quiet = TRUE)) |> 
             dplyr::filter(PRENAME == province) |>
             transform_projections(EPSG = 3401) |>
             sf::st_union()
