@@ -49,5 +49,5 @@ SPI <- run_SPI_computation(SPECIES, UNION)
 
 
 ## References
-T. Rudic, K. Ingenloff, M. Rogan, Y. Sica, G. Vigneron, & D. S. Rinnan. (2021). The Species Protection Index. Map of Life. [https://storymaps.arcgis.com/stories/8223a7756fea4c6c8b93eba0ea807794](https://mol.org/indicators/protection/background)
+T. Rudic, K. Ingenloff, M. Rogan, Y. Sica, G. Vigneron, & D. S. Rinnan. (2021). The Species Protection Index. Map of Life. [https://mol.org/indicators/protection/background](https://mol.org/indicators/protection/background)
 
