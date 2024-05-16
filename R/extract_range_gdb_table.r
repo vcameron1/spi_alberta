@@ -1,6 +1,7 @@
 library(sf)
 library(dplyr)
 library(readr)
+library(stringr)
 
 gdb_path <- "data_raw/Species at Risk Range Map Extents.gdb"
 
