@@ -39,3 +39,16 @@ UNION <- TRUE
 # Run SPI computation
 SPI <- run_SPI_computation(SPECIES, UNION)
 ```
+
+
+
+
+
+
+
+
+
+## References
+
+Rudic T., Ingenloff, K., Rogan, M., Sica, Y., Vigneron, G., D.S. Rinnan. 2021. The Species Protection Index: Measuring progress toward comprehensive biodiversity conservation. Map of Life. Retrieved 2024-05-15 from https://mol.org/indicators/protection/background
+
