@@ -80,8 +80,12 @@ protectedAreas |> names()
 library(ggplot2)
 library(readr)
 library(viridisLite)
+library(dplyr)
 
-X100_SPI_AB_data_calculated <- read_csv("data_static/100_SPI_AB_data_calculated.csv")
+X100_SPI_AB_data_calculated <- read_csv("data_static/100_SPI_AB_data_calculated.csv") %>%
+  mutate(THREATS = ifelse(THREATS == "Invasive & other Problematic Species, Genes & Diseases",
+         "Invasive Species and Disease", THREATS))
+
 
 
 # Convert the variable dose from a numeric to a factor variable
