@@ -75,5 +75,18 @@ protectedAreas |> names()
 
 
 
+#Compare SPI for protection level and Significance
 
+library(ggplot2)
+
+
+# Convert the variable dose from a numeric to a factor variable
+ToothGrowth$dose <- as.factor(ToothGrowth$dose)
+head(ToothGrowth)
+
+
+results <- ggplot(ToothGrowth, aes(x=supp, y=len)) + 
+  geom_violin()
+
+results
 
