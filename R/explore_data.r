@@ -47,7 +47,10 @@ for(i in 1:length(speciesAtRisk$COM_NAME_E)){
 col = GET(url=speciesAtRisk$websites[i])
 search_page = read_html(col)
 
-#2. Find key words in "Species Significance" section, or equivalent
+search_page %>%
+  html_elements(css = "")
+
+#2. Find key words in "Species Significance" section, or equivalent. Crashtest to if not accessible, access Table of contents)
 
 #3. Assign a category for each species based on species significance assessment
 
