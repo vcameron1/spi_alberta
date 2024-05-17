@@ -43,30 +43,42 @@ province_boundaries <- transform_projections(layer = province_boundaries, EPSG =
     sf::st_union()
 sf::st_write(province_boundaries, file.path("data_clean", "province_boundaries.gpkg"))
 ## Protected areas
-protectedAreas <- transform_projections(protectedAreas[1,], epsg) |>
+protectedAreas <- transform_projections(protectedAreas, epsg) |>
     crop_layer("Alberta")
 sf::st_write(protectedAreas, file.path("data_clean", "protectedAreas.gpkg"))
-## Species at risk
-# speciesAtRisk_alberta <- transform_projections(speciesAtRisk, epsg) |>
-#     crop_layer("Alberta")
+# Species at risk
+speciesAtRisk_alberta <- transform_projections(speciesAtRisk, epsg) 
 # sf::st_write(speciesAtRisk_alberta, file.path("data_clean", "speciesAtRisk_alberta.gpkg"))
 ```
 
-**3. Compute SPI**
+**3. Compute SPA**
 
 ```r
 source("R/compute_spi.r")
 
-# Define the species to compute SPI for
-COSEWICID = as.data.frame(speciesAtRisk) |>
-    dplyr::filter(SAR_STAT_E %in% c("Endangered", "Threatened")) |>
-    dplyr::select(COSEWICID) |>
-COSEWICID <- COSEWICID[!duplicated(COSEWICID),]
 # Filter protected areas
 IUCN_CAT = 1:4
 
-# Run SPI computation
-SPI <- run_SPI_computation(COSEWICID, IUCN_CAT = IUCN_CAT)
+# Run SPA computation
+SPA <- run_SPA_computation(speciesAtRisk, IUCN_CAT = IUCN_CAT)
+```
+
+## Compute SPI
+
+```r
+source("R/compute_spi_w_target.r")
+SPI_vect <- c()
+for (i in 1:nrow(SPA)) {
+    SPI_vect <- c(SPI_vect, SPI(SPA$species_protected_area[i],SPA$range_area_alberta[i], SPA$range_area_canada[i]))
+}
+
+SPI_df <- cbind(SPA, SPI = SPI_vect)
+```
+
+### Clean data
+    
+```r
+SPI_clean <- SPI_df[!duplicated(SPI_df$COSEWICID),]
 ```
 
 
