@@ -47,7 +47,10 @@ for(i in 1:length(speciesAtRisk$COM_NAME_E)){
 col = GET(url=speciesAtRisk$websites[i])
 search_page = read_html(col)
 
-#2. Find key words in "Species Significance" section, or equivalent
+search_page %>%
+  html_elements(css = "")
+
+#2. Find key words in "Species Significance" section, or equivalent. Crashtest to if not accessible, access Table of contents)
 
 #3. Assign a category for each species based on species significance assessment
 
@@ -72,5 +75,18 @@ protectedAreas |> names()
 
 
 
+#Compare SPI for protection level and Significance
 
+library(ggplot2)
+
+
+# Convert the variable dose from a numeric to a factor variable
+ToothGrowth$dose <- as.factor(ToothGrowth$dose)
+head(ToothGrowth)
+
+
+results <- ggplot(ToothGrowth, aes(x=supp, y=len)) + 
+  geom_violin()
+
+results
 

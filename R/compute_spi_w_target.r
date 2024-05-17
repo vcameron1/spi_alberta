@@ -1,7 +1,7 @@
 #==============================================================================
-# SPI function
+# SPI function v.2
 # KWT
-# 2024-05-13
+# 2024-05-17
 #==============================================================================
 # PURPOSE
 # 
@@ -43,4 +43,5 @@ SPI <- function(protected_m2, range_provincial_m2, range_m2) {
   result <- protected_m2 / (ratio_sp*range_provincial_m2)
   return(result)
 }
+
 
