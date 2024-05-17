@@ -21,4 +21,4 @@ SPI_data <- read_csv("data_static/010_SPI_AB_data_from_ArcPro.csv", na="NULL") %
 
 # Export
 
-write_csv(SPI_data,"data_clean/020_SPI_AB_data.csv")
+write_csv(SPI_data,"data_static/020_SPI_AB_data.csv")
