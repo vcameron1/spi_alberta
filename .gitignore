@@ -17,7 +17,7 @@ data_raw/*
 data_clean/*
 
 # Fichiers de données volumineux
-*.csv
+# *.csv
 *.tsv
 *.xlsx
 *.xls
