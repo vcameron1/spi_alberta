@@ -75,18 +75,87 @@ protectedAreas |> names()
 
 
 
-#Compare SPI for protection level and Significance
+#Plot SPI for protection level and Significance
 
 library(ggplot2)
+library(readr)
+library(viridisLite)
+
+X100_SPI_AB_data_calculated <- read_csv("data_static/100_SPI_AB_data_calculated.csv")
 
 
 # Convert the variable dose from a numeric to a factor variable
-ToothGrowth$dose <- as.factor(ToothGrowth$dose)
-head(ToothGrowth)
+X100_SPI_AB_data_calculated$SIGNIFICANCE <- as.factor(X100_SPI_AB_data_calculated$SIGNIFICANCE)
+head(X100_SPI_AB_data_calculated)
 
 
-results <- ggplot(ToothGrowth, aes(x=supp, y=len)) + 
-  geom_violin()
+#Significance
+results_significance <- ggplot(X100_SPI_AB_data_calculated, aes(x=SIGNIFICANCE, y=SPI_max)) + 
+  geom_violin( aes(fill = SIGNIFICANCE), alpha = 0.5,) +
+  stat_summary(fun = "mean",
+               geom = "crossbar", 
+               width = 0.5,
+               colour = "black") +
+  theme_classic()
 
-results
+results_significance + 
+  ggtitle("SPI for cultural significance") + 
+  theme(legend.position="none") +
+  scale_x_discrete(breaks=c("1", "2", "3"),
+                   labels=c("Very significant", "Significant", "Non-significant")) +
+  theme(axis.title.x = element_blank())
+  
+
+
+#Threats
+results_threats <- ggplot(X100_SPI_AB_data_calculated, aes(x=THREATS, y=SPI_max)) + 
+  geom_violin( aes(fill = THREATS), alpha = 0.5,) +
+  theme(legend.text = element_text(colour="black", size = 8, face = "plain")) +
+  theme(axis.title.x=element_blank(),
+        axis.text.x=element_blank(),
+        axis.ticks.x=element_blank()) +
+  stat_summary(fun = "mean",
+               geom = "crossbar", 
+               width = 0.4,
+               colour = "black") +
+  theme_classic()
+
+  results_threats + ggtitle("SPI per threat types") +
+  scale_x_discrete(breaks=NULL)
+
+
+#Status
+results_status <- ggplot(X100_SPI_AB_data_calculated, aes(x=SAR_STAT_E, y=SPI_max)) + 
+  geom_violin( aes(fill = SAR_STAT_E), alpha = 0.5,) +
+  theme(legend.text = element_text(colour="black", size = 8, face = "plain")) +
+  theme(axis.title.x=element_blank(),
+        axis.text.x=element_blank(),
+        axis.ticks.x=element_blank()) +
+  stat_summary(fun = "mean",
+               geom = "crossbar", 
+               width = 0.5,
+               colour = "black") +
+  theme_classic()
+
+results_status + ggtitle("SPI per status") + 
+  theme(legend.position="none") +
+  scale_x_discrete(limits=c("Endangered","Threatened","Special Concern")) +
+  theme(axis.title.x = element_blank())
+
+
+#Taxon
+results_threats <- ggplot(X100_SPI_AB_data_calculated, aes(x=TAXON_E, y=SPI_max)) + 
+  geom_violin( aes(fill = TAXON_E), alpha = 0.5,) +
+  theme(legend.text = element_text(colour="black", size = 8, face = "plain")) +
+  theme(axis.title.x=element_blank(),
+        axis.text.x=element_blank(),
+        axis.ticks.x=element_blank()) +
+  stat_summary(fun = "mean",
+               geom = "crossbar", 
+               width = 0.5,
+               colour = "black") +
+  theme_classic()
+
+  results_threats + ggtitle("SPI per taxon") +
+  scale_x_discrete(breaks=NULL)
 
