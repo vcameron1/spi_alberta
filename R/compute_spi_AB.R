@@ -8,7 +8,6 @@ library(readr)
 # Import ------------------------------------------------------------------
 
 SPI_data_in <- read_csv("data_static/020_SPI_AB_data.csv")
-
 str(SPI_data_in)
 
 # SPI Function-----------------------------------------------------------
@@ -50,6 +49,6 @@ SPI_data_out <- SPI_data_in %>%
 # Export
 
 write_csv(SPI_data_out,"data_static/100_SPI_AB_data_calculated.csv")
-
+View(SPI_data_out)
 
 

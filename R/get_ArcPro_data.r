@@ -43,4 +43,4 @@ SPI_data_out <- SPI_data %>%
 
 
 # Export
-write_csv(SPI_data,"data_static/020_SPI_AB_data.csv")
+write_csv(SPI_data_out,"data_static/020_SPI_AB_data.csv")

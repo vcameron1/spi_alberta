@@ -1,62 +1,62 @@
-COSEWICID,SCI_NAME,COM_NAME_E,TAXON_E,SAR_STAT_E,SCHEDULE_E,PA_Type,area_in_CA_m2,area_in_AB_m2,area_in_PA_m2,SIGNIFICANCE,THREATS,SPI
-20,Athene cunicularia,Burrowing Owl,Birds,Endangered,Schedule 1,IUCN,193837799101,62076082060,567350161,2,"Agricultural, Residential, Industrial",0.042081275151926646
-27,Charadrius montanus,Mountain Plover,Birds,Endangered,Schedule 1,IUCN,2215942987,909728529,67323870,2,Habitat Loss,0.07400435168720536
-32,Oreoscoptes montanus,Sage Thrasher,Birds,Endangered,Schedule 1,IUCN,15491592503,9659900235,205131222,3,Habitat Loss,0.024010615487755255
-34,Grus americana,Whooping Crane,Birds,Endangered,Schedule 1,IUCN,7876800490,1542631219,1554872630,1,Limited Habitat,1.007935409869337
-38,Lanius ludovicianus excubitorides,Loggerhead Shrike Prairie subspecies,Birds,Threatened,Schedule 1,IUCN,445341285637,125481809339,1544747761,3,Habitat Loss,0.08207020970541527
-47,Buteo regalis,Ferruginous Hawk,Birds,Threatened,Schedule 1,IUCN,205925160092,63790267997,829796444,3,Natural System Modifications,0.06464813537679692
-52,Numenius americanus,Long–billed Curlew,Birds,Special Concern,Schedule 1,IUCN,286833955289,95842578461,1023351986,3,Habitat Loss,0.07118283630181615
-60,Asio flammeus,Short–eared Owl,Birds,Special Concern,Schedule 1,IUCN,7935504687439,662493790164,100312901959,2,Natural System Modifications,1.0094474690262643
-140,Vulpes velox,Swift Fox,Mammals,Threatened,Schedule 1,IUCN,64814616215,30975192077,424633205,1,"Invasive & other Problematic Species, Genes & Diseases",0.02706725287271227
-143,Bison bison athabascae,Wood Bison,Mammals,Special Concern,Schedule 1,IUCN,58971703857,20348077363,11495681549,1,Biological Resource Use,1.0630989285287664
-164,Dipodomys ordii,Ord's Kangaroo Rat,Mammals,Endangered,Schedule 1,IUCN,79783960736,24598904487,637904919,3,Habitat Loss,0.05742286318427594
-230,Tripterocalyx micranthus,Small–flowered Sand–verbena,Vascular Plants,Endangered,Schedule 1,IUCN,1877034648,1752730233,25936689,3,"Invasive & other Problematic Species, Genes & Diseases",0.0147978784821931
-235,Iris missouriensis,Western Blue Flag,Vascular Plants,Special Concern,Schedule 1,IUCN,332244365,331847477,2913682,3,Habitat Loss,0.00878018427724855
-264,Chenopodium subglabrum,Smooth Goosefoot,Vascular Plants,Threatened,Schedule 1,IUCN,46160213083,14633151557,249509965,3,Habitat Loss,0.028604260732135414
-265,Yucca glauca,Soapweed,Vascular Plants,Threatened,Schedule 1,IUCN,34617642,34623497,9598300,2,Natural System Modifications,0.2772192537339599
-279,Phrynosoma hernandesi,Greater Short–horned Lizard,Reptiles,Endangered,Schedule 1,IUCN,31657581065,22784687608,607922852,3,Habitat Loss,0.03835210081513246
-294,Danaus plexippus,Monarch,Arthropods,Special Concern,Schedule 1,IUCN,1915565552255,275067263068,23292958420,1,Habitat Loss,0.5645396974349434
-305,Centrocercus urophasianus urophasianus,Greater Sage-Grouse urophasianus subspecies,Birds,Endangered,Schedule 1,IUCN,7306329804,3223861273,165569454,2,Habitat Loss,0.05135749958804136
-492,Reithrodontomys megalotis dychei,Western Harvest Mouse dychei subspecies,Mammals,Endangered,Schedule 1,IUCN,32699992182,31059296357,490935256,3,"Agricultural, Residential, Industrial",0.023003297003462733
-552,Lithobates pipiens,Northern Leopard Frog (Western Boreal/Prairie populations),Amphibians,Special Concern,Schedule 1,IUCN,626042908763,97491572772,6100752889,1,Habitat Loss,0.4171815549820297
-559,Anaxyrus cognatus,Great Plains Toad,Amphibians,Special Concern,Schedule 1,IUCN,17337991679,15534016631,132442846,3,"Agricultural, Residential, Industrial",0.00997565261578512
-573,Anthus spragueii,Sprague's Pipit,Birds,Threatened,Schedule 1,IUCN,619173881559,157356148270,1684893895,2,Habitat Loss,0.07138345778134536
-574,Coturnicops noveboracensis,Yellow Rail,Birds,Special Concern,Schedule 1,IUCN,1908340987324,640716878741,92665437477,2,Habitat Loss,0.964184967928282
-618,Gulo gulo,Wolverine,Mammals,Special Concern,No schedule,IUCN,5753154937757,433714895047,97717623651,1,Biological Resource Use,1.5020254821301557
-635,Limenitis weidemeyerii,Weidemeyer's Admiral,Arthropods,Special Concern,Schedule 1,IUCN,1286148084,1286482452,118350264,3,"Invasive & other Problematic Species, Genes & Diseases",0.0919952416109598
-636,Rangifer tarandus,Woodland Caribou (Boreal population),Mammals,Threatened,Schedule 1,IUCN,2663063334682,172383930931,37186329772,1,Multiple Factors/Unknown,1.4381205011846319
-638,Rangifer tarandus,Woodland Caribou (Southern Mountain population),Mammals,Endangered,Schedule 1,IUCN,64788667722,39133476,39113924,1,Multiple Factors/Unknown,1.973042940381536
-686,Charadrius melodus circumcinctus,Piping Plover circumcinctus subspecies,Birds,Endangered,Schedule 1,IUCN,341109418413,116964623094,946151623,2,"Invasive & other Problematic Species, Genes & Diseases",0.05392807944670097
-689,Bartramia halleriana,Haller's Apple Moss,Mosses,Threatened,Schedule 1,IUCN,235462714,53420842,53505744,3,"Agricultural, Residential, Industrial",1.0015893047885693
-715,Tegeticula yuccasella,Yucca Moth,Arthropods,Endangered,Schedule 1,IUCN,715943133,716550609,92829020,3,"Invasive & other Problematic Species, Genes & Diseases",0.12954984453861515
-748,Anaxyrus boreas,Western Toad,Amphibians,Special Concern,Schedule 1,IUCN,878928404590,125148051125,30426388658,2,"Invasive & other Problematic Species, Genes & Diseases",1.62082101343097
-795,Haplodontium macrocarpum,Porsild's Bryum,Mosses,Threatened,Schedule 1,IUCN,27331701333,8887049332,5492661969,3,Climate Change and Severe Weather,0.8414711508712702
-865,Schinia verna,Verna's Flower Moth,Arthropods,Threatened,Schedule 1,IUCN,17060036521,7203312727,35961,3,"Agricultural, Residential, Industrial",5.812097365894832e-6
-897,Rhynchophanes mccownii,McCown's Longspur,Birds,Special Concern,Schedule 1,IUCN,221983123789,86029444165,1043934632,3,"Agricultural, Residential, Industrial",0.06689908880024896
-903,Chrysemys picta bellii,Western Painted Turtle (Intermountain - Rocky Mountain population),Reptiles,Special Concern,Schedule 1,IUCN,381783949276,14346036435,1661374134,2,Habitat Loss,0.772047917916779
-907,Euphagus carolinus,Rusty Blackbird,Birds,Special Concern,Schedule 1,IUCN,6689336171887,659072897085,99249419473,3,"Agricultural, Residential, Industrial",1.0039296099310433
-919,Papaipema aweme,Aweme Borer,Arthropods,Endangered,Schedule 1,IUCN,205317327483,163077999,131103565,2,Climate Change and Severe Weather,3.9799390835482775
-927,Prodoxus quinquepunctellus,Five–spotted Bogus Yucca Moth,Arthropods,Endangered,Schedule 1,IUCN,5753681922,5728789194,174082419,3,Multiple Factors/Unknown,0.03038729705437997
-937,Satyrium semiluna,Half–moon Hairstreak,Arthropods,Endangered,Schedule 1,IUCN,5061061576,1621751015,374822494,3,Natural System Modifications,0.23112209613755044
-939,Schinia avemensis,Gold–edged Gem,Arthropods,Endangered,Schedule 1,IUCN,23497135175,14467986164,199651068,3,Natural System Modifications,0.017819403365061794
-941,Tegeticula corruptrix,Non–pollinating Yucca Moth,Arthropods,Endangered,Schedule 1,IUCN,108489637,108588221,34428228,3,Limited Habitat,0.31705306232063607
-986,Chordeiles minor,Common Nighthawk,Birds,Threatened,Schedule 1,IUCN,4978050074798,660207198517,100160014144,3,Natural System Modifications,1.0113997986186345
-995,Falco peregrinus anatum/tundrius,Peregrine Falcon anatum/tundrius,Birds,Special Concern,Schedule 1,IUCN,3321427102097,64821614345,21845020466,1,Pollution,2.24668069817312
-997,Copablepharon longipenne,Dusky Dune Moth,Arthropods,Endangered,Schedule 1,IUCN,372639249521,97773145865,936001509,3,"Agricultural, Residential, Industrial",0.06382130803703377
-998,Copablepharon grandis,Pale Yellow Dune Moth,Arthropods,Special Concern,Schedule 1,IUCN,331827175982,105186064794,2825001710,3,Habitat Loss,0.17904790687071717
-999,Contopus cooperi,Olive–sided Flycatcher,Birds,Threatened,Schedule 1,IUCN,5550296274101,656657907948,99874738353,2,Habitat Loss,1.0139702590358912
-1008,Cardellina canadensis,Canada Warbler,Birds,Threatened,Schedule 1,IUCN,2367183555394,281037589450,28461331014,2,"Agricultural, Residential, Industrial",0.6751488551098516
-1064,Calcarius ornatus,Chestnut–collared Longspur,Birds,Threatened,Schedule 1,IUCN,274822640921,122822511421,8071257776,2,Habitat Loss,0.43809872107967063
-1086,Pinus albicaulis,Whitebark Pine,Vascular Plants,Endangered,Schedule 1,IUCN,249373497947,36398552828,27866236399,1,"Invasive & other Problematic Species, Genes & Diseases",5.081463192834768
-1147,Hirundo rustica,Barn Swallow,Birds,Threatened,No schedule,IUCN,4476414179180,662496395020,100313370639,2,"Agricultural, Residential, Industrial",1.0094482163028389
-1215,Anaxyrus boreas,Western Toad (Calling population),Amphibians,Special Concern,No schedule,IUCN,361030829640,329007591060,32114276867,3,"Invasive & other Problematic Species, Genes & Diseases",0.6507302108852848
-1224,Ambystoma mavortium,Western Tiger Salamander (Prairie / Boreal population),Amphibians,Special Concern,No schedule,IUCN,583898542327,203331071342,9002346528,2,Habitat Loss,0.29516218610314865
-1229,Taxidea taxus jeffersonii,American Badger jeffersonii subspecies (Western population),Mammals,Endangered,No schedule,IUCN,156359730639,493828518,406743532,2,Habitat Loss,3.0068328467655268
-1232,Bombus bohemicus,Gypsy Cuckoo Bumble Bee,Arthropods,Endangered,No schedule,IUCN,6994760311967,662496395020,100313370639,2,Limited Habitat,1.0094482163028389
-1241,Ammodramus savannarum pratensis,"Grasshopper Sparrow, pratensis subspecies",Birds,Special Concern,No schedule,IUCN,578838501296,100770189627,2168379732,3,Habitat Loss,0.1434537826465174
-1253,Aechmophorus occidentalis,Western Grebe,Birds,Special Concern,No schedule,IUCN,869232480106,275808260939,3141064458,2,"Agricultural, Residential, Industrial",0.07592386699625127
-1256,Bombus occidentalis mckayi,Western Bumble Bee mckayi subspecies,Arthropods,Special Concern,No schedule,IUCN,670644425534,5457434325,100038019,2,"Agricultural, Residential, Industrial",0.122203967459868
-1266,Rangifer tarandus,Caribou (Central Mountain population),Mammals,Endangered,No schedule,IUCN,51923222665,18569641012,12103163599,1,Multiple Factors/Unknown,1.1535100290531006
-1267,Bombus occidentalis occidentalis,Western Bumble Bee occidentalis subspecies,Arthropods,Threatened,No schedule,IUCN,791520868264,141306378033,30126738841,2,"Agricultural, Residential, Industrial",1.4213436675856366
-1275,Pinus flexilis,Limber Pine,Vascular Plants,Endangered,No schedule,IUCN,7829101167,6908934538,2204621058,1,"Invasive & other Problematic Species, Genes & Diseases",0.31909711198945506
-1278,Phalaropus lobatus,Red–necked Phalarope,Birds,Special Concern,No schedule,IUCN,4826033729113,32722601840,14658362209,3,Climate Change and Severe Weather,2.986388894272188
+COSEWICID,SCI_NAME,COM_NAME_E,TAXON_E,SAR_STAT_E,SCHEDULE_E,PA_Type,area_in_CA_m2,area_in_AB_m2,area_in_PA_m2,SIGNIFICANCE,THREATS,SPI,SPI_max
+20,Athene cunicularia,Burrowing Owl,Birds,Endangered,Schedule 1,IUCN,193837799101,62076082060,567350161,2,"Agricultural, Residential, Industrial",0.042081275151926646,0.042081275151926646
+27,Charadrius montanus,Mountain Plover,Birds,Endangered,Schedule 1,IUCN,2215942987,909728529,67323870,2,Habitat Loss,0.07400435168720536,0.07400435168720536
+32,Oreoscoptes montanus,Sage Thrasher,Birds,Endangered,Schedule 1,IUCN,15491592503,9659900235,205131222,3,Habitat Loss,0.024010615487755255,0.024010615487755255
+34,Grus americana,Whooping Crane,Birds,Endangered,Schedule 1,IUCN,7876800490,1542631219,1554872630,1,Limited Habitat,1.007935409869337,1
+38,Lanius ludovicianus excubitorides,Loggerhead Shrike Prairie subspecies,Birds,Threatened,Schedule 1,IUCN,445341285637,125481809339,1544747761,3,Habitat Loss,0.08207020970541527,0.08207020970541527
+47,Buteo regalis,Ferruginous Hawk,Birds,Threatened,Schedule 1,IUCN,205925160092,63790267997,829796444,3,Natural System Modifications,0.06464813537679692,0.06464813537679692
+52,Numenius americanus,Long–billed Curlew,Birds,Special Concern,Schedule 1,IUCN,286833955289,95842578461,1023351986,3,Habitat Loss,0.07118283630181615,0.07118283630181615
+60,Asio flammeus,Short–eared Owl,Birds,Special Concern,Schedule 1,IUCN,7935504687439,662493790164,100312901959,2,Natural System Modifications,1.0094474690262643,1
+140,Vulpes velox,Swift Fox,Mammals,Threatened,Schedule 1,IUCN,64814616215,30975192077,424633205,1,"Invasive & other Problematic Species, Genes & Diseases",0.02706725287271227,0.02706725287271227
+143,Bison bison athabascae,Wood Bison,Mammals,Special Concern,Schedule 1,IUCN,58971703857,20348077363,11495681549,1,Biological Resource Use,1.0630989285287664,1
+164,Dipodomys ordii,Ord's Kangaroo Rat,Mammals,Endangered,Schedule 1,IUCN,79783960736,24598904487,637904919,3,Habitat Loss,0.05742286318427594,0.05742286318427594
+230,Tripterocalyx micranthus,Small–flowered Sand–verbena,Vascular Plants,Endangered,Schedule 1,IUCN,1877034648,1752730233,25936689,3,"Invasive & other Problematic Species, Genes & Diseases",0.0147978784821931,0.0147978784821931
+235,Iris missouriensis,Western Blue Flag,Vascular Plants,Special Concern,Schedule 1,IUCN,332244365,331847477,2913682,3,Habitat Loss,0.00878018427724855,0.00878018427724855
+264,Chenopodium subglabrum,Smooth Goosefoot,Vascular Plants,Threatened,Schedule 1,IUCN,46160213083,14633151557,249509965,3,Habitat Loss,0.028604260732135414,0.028604260732135414
+265,Yucca glauca,Soapweed,Vascular Plants,Threatened,Schedule 1,IUCN,34617642,34623497,9598300,2,Natural System Modifications,0.2772192537339599,0.2772192537339599
+279,Phrynosoma hernandesi,Greater Short–horned Lizard,Reptiles,Endangered,Schedule 1,IUCN,31657581065,22784687608,607922852,3,Habitat Loss,0.03835210081513246,0.03835210081513246
+294,Danaus plexippus,Monarch,Arthropods,Special Concern,Schedule 1,IUCN,1915565552255,275067263068,23292958420,1,Habitat Loss,0.5645396974349434,0.5645396974349434
+305,Centrocercus urophasianus urophasianus,Greater Sage-Grouse urophasianus subspecies,Birds,Endangered,Schedule 1,IUCN,7306329804,3223861273,165569454,2,Habitat Loss,0.05135749958804136,0.05135749958804136
+492,Reithrodontomys megalotis dychei,Western Harvest Mouse dychei subspecies,Mammals,Endangered,Schedule 1,IUCN,32699992182,31059296357,490935256,3,"Agricultural, Residential, Industrial",0.023003297003462733,0.023003297003462733
+552,Lithobates pipiens,Northern Leopard Frog (Western Boreal/Prairie populations),Amphibians,Special Concern,Schedule 1,IUCN,626042908763,97491572772,6100752889,1,Habitat Loss,0.4171815549820297,0.4171815549820297
+559,Anaxyrus cognatus,Great Plains Toad,Amphibians,Special Concern,Schedule 1,IUCN,17337991679,15534016631,132442846,3,"Agricultural, Residential, Industrial",0.00997565261578512,0.00997565261578512
+573,Anthus spragueii,Sprague's Pipit,Birds,Threatened,Schedule 1,IUCN,619173881559,157356148270,1684893895,2,Habitat Loss,0.07138345778134536,0.07138345778134536
+574,Coturnicops noveboracensis,Yellow Rail,Birds,Special Concern,Schedule 1,IUCN,1908340987324,640716878741,92665437477,2,Habitat Loss,0.964184967928282,0.964184967928282
+618,Gulo gulo,Wolverine,Mammals,Special Concern,No schedule,IUCN,5753154937757,433714895047,97717623651,1,Biological Resource Use,1.5020254821301557,1
+635,Limenitis weidemeyerii,Weidemeyer's Admiral,Arthropods,Special Concern,Schedule 1,IUCN,1286148084,1286482452,118350264,3,"Invasive & other Problematic Species, Genes & Diseases",0.0919952416109598,0.0919952416109598
+636,Rangifer tarandus,Woodland Caribou (Boreal population),Mammals,Threatened,Schedule 1,IUCN,2663063334682,172383930931,37186329772,1,Multiple Factors/Unknown,1.4381205011846319,1
+638,Rangifer tarandus,Woodland Caribou (Southern Mountain population),Mammals,Endangered,Schedule 1,IUCN,64788667722,39133476,39113924,1,Multiple Factors/Unknown,1.973042940381536,1
+686,Charadrius melodus circumcinctus,Piping Plover circumcinctus subspecies,Birds,Endangered,Schedule 1,IUCN,341109418413,116964623094,946151623,2,"Invasive & other Problematic Species, Genes & Diseases",0.05392807944670097,0.05392807944670097
+689,Bartramia halleriana,Haller's Apple Moss,Mosses,Threatened,Schedule 1,IUCN,235462714,53420842,53505744,3,"Agricultural, Residential, Industrial",1.0015893047885693,1
+715,Tegeticula yuccasella,Yucca Moth,Arthropods,Endangered,Schedule 1,IUCN,715943133,716550609,92829020,3,"Invasive & other Problematic Species, Genes & Diseases",0.12954984453861515,0.12954984453861515
+748,Anaxyrus boreas,Western Toad,Amphibians,Special Concern,Schedule 1,IUCN,878928404590,125148051125,30426388658,2,"Invasive & other Problematic Species, Genes & Diseases",1.62082101343097,1
+795,Haplodontium macrocarpum,Porsild's Bryum,Mosses,Threatened,Schedule 1,IUCN,27331701333,8887049332,5492661969,3,Climate Change and Severe Weather,0.8414711508712702,0.8414711508712702
+865,Schinia verna,Verna's Flower Moth,Arthropods,Threatened,Schedule 1,IUCN,17060036521,7203312727,35961,3,"Agricultural, Residential, Industrial",5.812097365894832e-6,5.812097365894832e-6
+897,Rhynchophanes mccownii,McCown's Longspur,Birds,Special Concern,Schedule 1,IUCN,221983123789,86029444165,1043934632,3,"Agricultural, Residential, Industrial",0.06689908880024896,0.06689908880024896
+903,Chrysemys picta bellii,Western Painted Turtle (Intermountain - Rocky Mountain population),Reptiles,Special Concern,Schedule 1,IUCN,381783949276,14346036435,1661374134,2,Habitat Loss,0.772047917916779,0.772047917916779
+907,Euphagus carolinus,Rusty Blackbird,Birds,Special Concern,Schedule 1,IUCN,6689336171887,659072897085,99249419473,3,"Agricultural, Residential, Industrial",1.0039296099310433,1
+919,Papaipema aweme,Aweme Borer,Arthropods,Endangered,Schedule 1,IUCN,205317327483,163077999,131103565,2,Climate Change and Severe Weather,3.9799390835482775,1
+927,Prodoxus quinquepunctellus,Five–spotted Bogus Yucca Moth,Arthropods,Endangered,Schedule 1,IUCN,5753681922,5728789194,174082419,3,Multiple Factors/Unknown,0.03038729705437997,0.03038729705437997
+937,Satyrium semiluna,Half–moon Hairstreak,Arthropods,Endangered,Schedule 1,IUCN,5061061576,1621751015,374822494,3,Natural System Modifications,0.23112209613755044,0.23112209613755044
+939,Schinia avemensis,Gold–edged Gem,Arthropods,Endangered,Schedule 1,IUCN,23497135175,14467986164,199651068,3,Natural System Modifications,0.017819403365061794,0.017819403365061794
+941,Tegeticula corruptrix,Non–pollinating Yucca Moth,Arthropods,Endangered,Schedule 1,IUCN,108489637,108588221,34428228,3,Limited Habitat,0.31705306232063607,0.31705306232063607
+986,Chordeiles minor,Common Nighthawk,Birds,Threatened,Schedule 1,IUCN,4978050074798,660207198517,100160014144,3,Natural System Modifications,1.0113997986186345,1
+995,Falco peregrinus anatum/tundrius,Peregrine Falcon anatum/tundrius,Birds,Special Concern,Schedule 1,IUCN,3321427102097,64821614345,21845020466,1,Pollution,2.24668069817312,1
+997,Copablepharon longipenne,Dusky Dune Moth,Arthropods,Endangered,Schedule 1,IUCN,372639249521,97773145865,936001509,3,"Agricultural, Residential, Industrial",0.06382130803703377,0.06382130803703377
+998,Copablepharon grandis,Pale Yellow Dune Moth,Arthropods,Special Concern,Schedule 1,IUCN,331827175982,105186064794,2825001710,3,Habitat Loss,0.17904790687071717,0.17904790687071717
+999,Contopus cooperi,Olive–sided Flycatcher,Birds,Threatened,Schedule 1,IUCN,5550296274101,656657907948,99874738353,2,Habitat Loss,1.0139702590358912,1
+1008,Cardellina canadensis,Canada Warbler,Birds,Threatened,Schedule 1,IUCN,2367183555394,281037589450,28461331014,2,"Agricultural, Residential, Industrial",0.6751488551098516,0.6751488551098516
+1064,Calcarius ornatus,Chestnut–collared Longspur,Birds,Threatened,Schedule 1,IUCN,274822640921,122822511421,8071257776,2,Habitat Loss,0.43809872107967063,0.43809872107967063
+1086,Pinus albicaulis,Whitebark Pine,Vascular Plants,Endangered,Schedule 1,IUCN,249373497947,36398552828,27866236399,1,"Invasive & other Problematic Species, Genes & Diseases",5.081463192834768,1
+1147,Hirundo rustica,Barn Swallow,Birds,Threatened,No schedule,IUCN,4476414179180,662496395020,100313370639,2,"Agricultural, Residential, Industrial",1.0094482163028389,1
+1215,Anaxyrus boreas,Western Toad (Calling population),Amphibians,Special Concern,No schedule,IUCN,361030829640,329007591060,32114276867,3,"Invasive & other Problematic Species, Genes & Diseases",0.6507302108852848,0.6507302108852848
+1224,Ambystoma mavortium,Western Tiger Salamander (Prairie / Boreal population),Amphibians,Special Concern,No schedule,IUCN,583898542327,203331071342,9002346528,2,Habitat Loss,0.29516218610314865,0.29516218610314865
+1229,Taxidea taxus jeffersonii,American Badger jeffersonii subspecies (Western population),Mammals,Endangered,No schedule,IUCN,156359730639,493828518,406743532,2,Habitat Loss,3.0068328467655268,1
+1232,Bombus bohemicus,Gypsy Cuckoo Bumble Bee,Arthropods,Endangered,No schedule,IUCN,6994760311967,662496395020,100313370639,2,Limited Habitat,1.0094482163028389,1
+1241,Ammodramus savannarum pratensis,"Grasshopper Sparrow, pratensis subspecies",Birds,Special Concern,No schedule,IUCN,578838501296,100770189627,2168379732,3,Habitat Loss,0.1434537826465174,0.1434537826465174
+1253,Aechmophorus occidentalis,Western Grebe,Birds,Special Concern,No schedule,IUCN,869232480106,275808260939,3141064458,2,"Agricultural, Residential, Industrial",0.07592386699625127,0.07592386699625127
+1256,Bombus occidentalis mckayi,Western Bumble Bee mckayi subspecies,Arthropods,Special Concern,No schedule,IUCN,670644425534,5457434325,100038019,2,"Agricultural, Residential, Industrial",0.122203967459868,0.122203967459868
+1266,Rangifer tarandus,Caribou (Central Mountain population),Mammals,Endangered,No schedule,IUCN,51923222665,18569641012,12103163599,1,Multiple Factors/Unknown,1.1535100290531006,1
+1267,Bombus occidentalis occidentalis,Western Bumble Bee occidentalis subspecies,Arthropods,Threatened,No schedule,IUCN,791520868264,141306378033,30126738841,2,"Agricultural, Residential, Industrial",1.4213436675856366,1
+1275,Pinus flexilis,Limber Pine,Vascular Plants,Endangered,No schedule,IUCN,7829101167,6908934538,2204621058,1,"Invasive & other Problematic Species, Genes & Diseases",0.31909711198945506,0.31909711198945506
+1278,Phalaropus lobatus,Red–necked Phalarope,Birds,Special Concern,No schedule,IUCN,4826033729113,32722601840,14658362209,3,Climate Change and Severe Weather,2.986388894272188,1
